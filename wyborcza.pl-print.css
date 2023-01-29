@@ -1,26 +1,19 @@
 /* .*(wyborcza|gazeta)\.(pl|biz)\/.* */
 
 @media print {
-    aside.article-extra {display: none}
-
-    section.article-and-social {width: 100%}
-
-    .socialBar.visible{display: none}
-
-    .art_embed {display: none}
-
-    #wyborczaHat {display: none}
-
-    .page-top {display: none}
-
-    .article-lead, .article-promo-disclaimer, .article-publio, .article-text, .comments-container, .complementary-entries, .goback, .mod_rtc2012, .pollBox, .pollBoxWnk, .post-article, .post-article-related {margin-left: 0}
-
-    section.post-article {display: none}
-    section.comments {display: none}
-    section.share-article-container {display: none}
-    .page-footer {display: none}
-    .karaluch {display: none}
-
-    .container-inner {margin: 40px}
+    .article--social-top {display: none}   
+    .ads--splint {display: none}
+    .grid--c-4 {display: none}
+    .grid--c-6 {max-width: 100%}
+    .header-sticky {display: none}
+    .cap-navigation {display: none}
+    .article--social-bottom {display: none}
+    .article--postcontent {display: none}
+    .column-61 {display: none}
+    .grid--c-8 {display: none}
+    .grid--c-5 {display: none}
+    .grid--c-3 {display: none}
+    .grid--c-12 {display: none}
+    .text--embed {display: none}
 }
 
